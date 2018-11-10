@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		4BC5C65E2194D06900F3E683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C65D2194D06900F3E683 /* AppDelegate.swift */; };
 		4BC5C6602194D06900F3E683 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C65F2194D06900F3E683 /* DocumentBrowserViewController.swift */; };
-		4BC5C6622194D06900F3E683 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6612194D06900F3E683 /* DocumentViewController.swift */; };
-		4BC5C6642194D06900F3E683 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6632194D06900F3E683 /* Document.swift */; };
 		4BC5C6672194D06900F3E683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC5C6652194D06900F3E683 /* Main.storyboard */; };
 		4BC5C6692194D06B00F3E683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC5C6682194D06B00F3E683 /* Assets.xcassets */; };
 		4BC5C66C2194D06B00F3E683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC5C66A2194D06B00F3E683 /* LaunchScreen.storyboard */; };
+		4BC5C6772194D11C00F3E683 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6762194D11C00F3E683 /* Utilities.swift */; };
+		4BC5C67D2194D2C600F3E683 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6782194D2C600F3E683 /* ImageDetailViewController.swift */; };
+		4BC5C6802194D2C600F3E683 /* ImageGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C67B2194D2C600F3E683 /* ImageGalleryCollectionViewCell.swift */; };
+		4BC5C6872195D6DF00F3E683 /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6862195D6DE00F3E683 /* ImageGalleryViewController.swift */; };
+		4BC5C68A2195D72400F3E683 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6882195D72400F3E683 /* ImageGallery.swift */; };
+		4BC5C68B2195D72400F3E683 /* ImageGalleryDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC5C6892195D72400F3E683 /* ImageGalleryDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BC5C65A2194D06900F3E683 /* ImageGalleryDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGalleryDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC5C65D2194D06900F3E683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC5C65F2194D06900F3E683 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
-		4BC5C6612194D06900F3E683 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		4BC5C6632194D06900F3E683 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		4BC5C6662194D06900F3E683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC5C6682194D06B00F3E683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC5C66B2194D06B00F3E683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC5C66D2194D06B00F3E683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC5C6762194D11C00F3E683 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4BC5C6782194D2C600F3E683 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		4BC5C67B2194D2C600F3E683 /* ImageGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BC5C6862195D6DE00F3E683 /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewController.swift; sourceTree = "<group>"; };
+		4BC5C6882195D72400F3E683 /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
+		4BC5C6892195D72400F3E683 /* ImageGalleryDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,28 @@
 		4BC5C65C2194D06900F3E683 /* ImageGalleryDocument */ = {
 			isa = PBXGroup;
 			children = (
-				4BC5C65D2194D06900F3E683 /* AppDelegate.swift */,
 				4BC5C65F2194D06900F3E683 /* DocumentBrowserViewController.swift */,
-				4BC5C6612194D06900F3E683 /* DocumentViewController.swift */,
-				4BC5C6632194D06900F3E683 /* Document.swift */,
+				4BC5C6882195D72400F3E683 /* ImageGallery.swift */,
+				4BC5C6892195D72400F3E683 /* ImageGalleryDocument.swift */,
 				4BC5C6652194D06900F3E683 /* Main.storyboard */,
+				4BC5C6782194D2C600F3E683 /* ImageDetailViewController.swift */,
+				4BC5C67B2194D2C600F3E683 /* ImageGalleryCollectionViewCell.swift */,
+				4BC5C6862195D6DE00F3E683 /* ImageGalleryViewController.swift */,
+				4BC5C6732194D0B300F3E683 /* Supporting Files */,
+			);
+			path = ImageGalleryDocument;
+			sourceTree = "<group>";
+		};
+		4BC5C6732194D0B300F3E683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				4BC5C6682194D06B00F3E683 /* Assets.xcassets */,
+				4BC5C6762194D11C00F3E683 /* Utilities.swift */,
+				4BC5C65D2194D06900F3E683 /* AppDelegate.swift */,
 				4BC5C66A2194D06B00F3E683 /* LaunchScreen.storyboard */,
 				4BC5C66D2194D06B00F3E683 /* Info.plist */,
 			);
-			path = ImageGalleryDocument;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC5C6642194D06900F3E683 /* Document.swift in Sources */,
-				4BC5C6622194D06900F3E683 /* DocumentViewController.swift in Sources */,
+				4BC5C68A2195D72400F3E683 /* ImageGallery.swift in Sources */,
+				4BC5C6802194D2C600F3E683 /* ImageGalleryCollectionViewCell.swift in Sources */,
 				4BC5C6602194D06900F3E683 /* DocumentBrowserViewController.swift in Sources */,
+				4BC5C6872195D6DF00F3E683 /* ImageGalleryViewController.swift in Sources */,
+				4BC5C6772194D11C00F3E683 /* Utilities.swift in Sources */,
+				4BC5C68B2195D72400F3E683 /* ImageGalleryDocument.swift in Sources */,
 				4BC5C65E2194D06900F3E683 /* AppDelegate.swift in Sources */,
+				4BC5C67D2194D2C600F3E683 /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4EFH9TWN7W;
-				INFOPLIST_FILE = ImageGalleryDocument/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ImageGalleryDocument/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4EFH9TWN7W;
-				INFOPLIST_FILE = ImageGalleryDocument/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ImageGalleryDocument/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
